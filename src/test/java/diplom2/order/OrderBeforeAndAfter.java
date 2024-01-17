@@ -21,7 +21,7 @@ public class OrderBeforeAndAfter {
     @After
     public void tearDown(){
         if(accessToken != null) {
-            userClient.userDelete(accessToken);
+            UserClient.userDelete(accessToken);
         }
     }
 }

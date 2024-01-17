@@ -19,7 +19,7 @@ public class UserBeforeAndAfter {
     @After
     public void tearDown(){
         if(accessToken != null) {
-            userClient.userDelete(accessToken);
+            UserClient.userDelete(accessToken);
         }
     }
 }
